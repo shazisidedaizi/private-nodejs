@@ -12,4 +12,4 @@ RUN apk update && apk upgrade &&\
     chmod +x index.js &&\
     npm install
 
-CMD ["node", "confuse.js"]
+CMD ["node", "obfusecate.js"]
